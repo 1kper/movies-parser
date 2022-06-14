@@ -1,4 +1,4 @@
-FROM golang:1.13.4
+FROM golang:1.18
 
 ENV VERSION v1.0.36
 ENV GOCACHE /tmp
