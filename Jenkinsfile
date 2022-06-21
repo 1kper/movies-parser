@@ -15,11 +15,11 @@ node('workers'){
                     sh 'golint'
                 }
             },
-            'Unit Tests': {
-                imageTest.inside('-u root:root'){
-                    sh 'go test'
-                }
-            },
+            //'Unit Tests': {
+              //  imageTest.inside('-u root:root'){
+                //    sh 'go test'
+               // }
+            //},
             'Security Tests': {
                 imageTest.inside('-u root:root'){
                     
